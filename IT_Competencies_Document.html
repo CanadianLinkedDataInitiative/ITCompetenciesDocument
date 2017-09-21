@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="TOC">
+<ul>
+<li><a href="#it-competencies-document">IT Competencies Document</a><ul>
+<li><a href="#introduction">Introduction</a><ul>
+<li><a href="#who-we-are">Who we are:</a></li>
+<li><a href="#target-audience-goals">Target audience &amp; goals:</a></li>
+</ul></li>
+<li><a href="#prerequisite-knowledge">Prerequisite Knowledge</a><ul>
+<li><a href="#what-you-need-to-know-before-you-read-this-document">What you need to know before you read this document</a></li>
+<li><a href="#semantic-web-vs-world-wide-web">Semantic Web vs World Wide Web</a></li>
+<li><a href="#rdf-vs-semantic-web-vs-linked-data">RDF vs Semantic Web vs Linked Data</a></li>
+<li><a href="#basic-data-modelling-erm">Basic Data Modelling &amp; ERM</a></li>
+<li><a href="#schema-vs-serialization-vs-encoding">Schema vs Serialization vs Encoding</a></li>
+<li><a href="#ontology-vs-thesaurus-vs-controlled-vocabulary">Ontology vs Thesaurus vs Controlled Vocabulary</a></li>
+</ul></li>
+<li><a href="#theories">Theories</a><ul>
+<li><a href="#computer-science-theories">Computer Science Theories</a></li>
+<li><a href="#semantic-web-theories">Semantic Web Theories</a></li>
+<li><a href="#linked-data-theories">Linked Data Theories</a></li>
+</ul></li>
+<li><a href="#data-modelling">Data Modelling</a></li>
+<li><a href="#linked-data-application-development">Linked Data Application Development</a><ul>
+<li><a href="#programming-concepts">Programming Concepts</a></li>
+<li><a href="#applications">Applications</a></li>
+</ul></li>
+<li><a href="#community-and-workflows">Community and Workflows</a></li>
+</ul></li>
+</ul>
+</div>
+<h1 id="it-competencies-document">IT Competencies Document</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Who we are, and why this document exists.</p>
+<h3 id="who-we-are">Who we are:</h3>
+<p>CLDI generally is...</p>
+<h4 id="it-wg">IT WG</h4>
+<ul>
+<li>Jenn Riley, McGill, co-chair</li>
+<li>Bilal Khalid, U Toronto, co-chair</li>
+<li>Sam Popowich, U Alberta</li>
+<li>Kim Pham, U Toronto Scarborough</li>
+<li>Julienne Pascoe, Canadiana.org</li>
+<li>Peter Binkley, U Alberta</li>
+<li>Paul Joseph, UBC</li>
+<li>Myriam Beauchemin, LAC</li>
+<li>Gagandeep Dhillon, McGill</li>
+<li>Mutugi Gathuri, McGill</li>
+</ul>
+<h3 id="target-audience-goals">Target audience &amp; goals:</h3>
+<ol style="list-style-type: decimal">
+<li>Larger CLDI membership</li>
+<li>Anyone interested in LOD - wants to get started from within the field of information science</li>
+<li>Different sections tailored to diff. audiences</li>
+<li>Doc should make sense to us first.</li>
+</ol>
+<h2 id="prerequisite-knowledge">Prerequisite Knowledge</h2>
+<h3 id="what-you-need-to-know-before-you-read-this-document">What you need to know before you read this document</h3>
+<p>TBD</p>
+<p>Introduction to the basics. Headings in the previous document are as follows:</p>
+<h3 id="semantic-web-vs-world-wide-web">Semantic Web vs World Wide Web</h3>
+<p>World Wide Web:</p>
+<ul>
+<li>Definition: “The World Wide Web (abbreviated WWW or the Web) is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and can be accessed via the Internet.”</li>
+<li>Library Context: Web sites, library catalogues, licensed databases</li>
+<li>Example:</li>
+</ul>
+<p>Semantic Web:</p>
+<ul>
+<li>Definition:</li>
+<li>Library Context: “Microdata” behind web pages for semantic-aware processors to use. Large data sets for querying by programmers or bulk download.</li>
+<li>Example:</li>
+</ul>
+<p>The big difference between these:</p>
+<h3 id="rdf-vs-semantic-web-vs-linked-data">RDF vs Semantic Web vs Linked Data</h3>
+<p>RDF:</p>
+<ul>
+<li>Definition:</li>
+<li>Library Context:</li>
+<li>Example:</li>
+</ul>
+<p>Semantic Web:</p>
+<ul>
+<li>See above</li>
+</ul>
+<p>Linked Data:</p>
+<p>Definition: (cite the Tim Berners-Lee definition doc, which shows not only RDF is LD: https://www.w3.org/DesignIssues/LinkedData.html) - Library Context: - Example:</p>
+<p>The big difference between these:</p>
+<h3 id="basic-data-modelling-erm">Basic Data Modelling &amp; ERM</h3>
+<p>Preamble: Open world of Linked Data vs previous ‘closed worlds’ of data</p>
+<p>Basic Data Modelling:</p>
+<ul>
+<li>Definition:</li>
+<li>Library Context:</li>
+<li>Example:</li>
+</ul>
+<p>ERM:</p>
+<ul>
+<li>Definition:</li>
+<li>Library Context:</li>
+<li>Example:</li>
+</ul>
+<p>The big difference between these:</p>
+<h3 id="schema-vs-serialization-vs-encoding">Schema vs Serialization vs Encoding</h3>
+<p>Where to park MARC, MODS, RDA….?</p>
+<p>Schema:</p>
+<ul>
+<li>Definition: “metadata standards intended to establish a common understanding of the meaning of data structures and values.”</li>
+<li>Library Context: RDA, BIBFRAME</li>
+<li>Example:</li>
+</ul>
+<p>Serialization:</p>
+<ul>
+<li>Definition: “the process of translating data structures into a! format that can be stored or Transmitted.”</li>
+<li>Library Context:</li>
+<li>Example:</li>
+</ul>
+<p>Encoding:</p>
+<ul>
+<li>Definition: “the process by which characters are converted into! byte sequences that can be! stored or transmitted.”</li>
+<li>Library Context: MARC, MODS</li>
+<li>Example:</li>
+</ul>
+<p>The big difference between these:</p>
+<p>Additional Resources:</p>
+<ul>
+<li>http://book.freeyourmetadata.org/chapters/1/modelling.pdf</li>
+</ul>
+<h3 id="ontology-vs-thesaurus-vs-controlled-vocabulary">Ontology vs Thesaurus vs Controlled Vocabulary</h3>
+<p>Ontology:</p>
+<ul>
+<li>Definition: “a formal naming and definition of the types, properties, and interrelationships of the entities that really or fundamentally exist for a particular domain of discourse”</li>
+<li>Library Context:</li>
+<li>Example:</li>
+</ul>
+<p>Thesaurus:</p>
+<ul>
+<li>Definition:</li>
+<li>Library Context:</li>
+<li>Example:</li>
+</ul>
+<p>Controlled Vocabulary:</p>
+<ul>
+<li>Definition:</li>
+<li>Library Context:</li>
+<li>Example:</li>
+</ul>
+<p>The big difference between these:</p>
+<p>Could these be used and reworked as subheadings in this section?</p>
+<h2 id="theories">Theories</h2>
+<h3 id="computer-science-theories">Computer Science Theories</h3>
+<ul>
+<li>Graph theory</li>
+<li>Network Architecture and protocols</li>
+<li>Database models (graph, network)</li>
+<li>Graph databases</li>
+<li>Entity relationship model</li>
+<li>World wide Web/ Internet</li>
+</ul>
+<h3 id="semantic-web-theories">Semantic Web Theories</h3>
+<ul>
+<li>Semantics/Inference/Reasoning</li>
+</ul>
+<h3 id="linked-data-theories">Linked Data Theories</h3>
+<ul>
+<li>Taxonomies (to do - priority)</li>
+<li>RDF Graph Theory</li>
+<li>Data modelling - ontologies and knowledge organization systems</li>
+<li>Description</li>
+<li>RDF Model</li>
+<li>RDFs [to be expanded]
+<ul>
+<li>Examples:</li>
+</ul></li>
+<li>OWL [to be expanded]</li>
+<li>SKOS [to be expanded]</li>
+<li>Resources</li>
+</ul>
+<h2 id="data-modelling">Data Modelling</h2>
+<ul>
+<li>Crosswalking/mapping</li>
+<li>Digital Object modelling (to do - Julienne)</li>
+<li>Profiles (to do - Julienne)</li>
+<li>Semantic annotation (to do)</li>
+</ul>
+<h2 id="linked-data-application-development">Linked Data Application Development</h2>
+<h3 id="programming-concepts">Programming Concepts</h3>
+<ul>
+<li>RDF Manipulation (to do - medium priority)</li>
+<li>Application Frameworks (to do - low priority)</li>
+<li>Infrastructure (to do - low priority)</li>
+<li>Architectures and Design Patterns (to do - low priority)</li>
+<li>Data and conceptual modelling (to do - high priority)</li>
+<li>Semantic Querying</li>
+<li>Serialization</li>
+<li>Which is the best RDF serialization for publishing RDF?</li>
+<li>Data structures (to do - low priority)</li>
+<li>Working with URIs, APIs, content negotiation (to do - medium priority)</li>
+<li>Tools (to do - very low priority)</li>
+<li>Programming paradigms (to do - very low priority)</li>
+<li>Programming techniques (to do - very low priority)</li>
+</ul>
+<h3 id="applications">Applications</h3>
+<ul>
+<li>Linked Data Platform (LDP)</li>
+<li>Triplestores (to do - high priority)</li>
+<li>Full stack Linked Data Applications (to do - medium priority)</li>
+<li>Semantic Web Search Interfaces</li>
+</ul>
+<h2 id="community-and-workflows">Community and Workflows</h2>
+<ul>
+<li>Git (to do - medium priority)</li>
+<li>Project management (to do - low priority)</li>
+<li>Workflow (to do - high priority)</li>
+<li>Funding (to do - low priority)</li>
+<li>Communities (to do - medium priority)</li>
+<li>Existing projects and initiatives (to do - medium priority)</li>
+</ul>
+</body>
+</html>
